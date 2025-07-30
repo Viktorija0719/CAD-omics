@@ -1,0 +1,16 @@
+# Ignore raw datasets (large files)
+data/raw/*
+data/raw/**/*
+
+# Ignore temp Python & R cache
+__pycache__/
+*.pyc
+*.Rhistory
+*.RData
+*.Rproj.user
+*.ipynb_checkpoints
+
+# Ignore local config or OS junk
+.DS_Store
+.env
+
