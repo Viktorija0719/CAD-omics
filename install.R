@@ -1,9 +1,9 @@
 # CRAN packages
 install.packages(c(
-  "tidyr",
-  "readr",
-  "caret"
+  "tidyr", "readr", "caret",
+  "ggplot2", "ggrepel", "scales"
 ), repos = "https://cran.r-project.org")
+
 
 # Bioconductor packages
 if (!requireNamespace("BiocManager", quietly = TRUE))
